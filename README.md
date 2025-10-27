@@ -71,6 +71,7 @@ Oluehi Delight — VUG/CSC/23/9564
 Joshua Olusola — VUG/CSC/23/9682
 
 Christian Chukwuemeka Ejiasi — VUG/CSC/23/9074
+
 Abiakwe Samuel uche  — VUG/CSC/23/9692
 
 💡 Explainability Team
@@ -94,30 +95,38 @@ The essence of the two model is to predict positions of sport players using the 
 1. Open Jupyter Notebook
  - Launch Anaconda Navigator or run the following command in your terminal:
 
-    jupyter notebook
+        jupyter notebook
 
- -Then navigate to where you saved the notebook file.
-    2. Open the Project Notebook 
- Load the file named fifa19_role_prediction.ipynb.
-    3. Check the Dataset Path 
- Make sure your FIFA 19 dataset path matches the one in the code.
+ - Then navigate to where you saved the notebook file.
+    
+2. Open the Project Notebook 
+ 
+ - Load the file named fifa19_role_prediction.ipynb.
+    
+3. Check the Dataset Path 
+ 
+ - Make sure your FIFA 19 dataset path matches the one in the code.
 
     "data = pd.read_csv('path_to_your/FIFA19.csv')"
 
 
--If your dataset is in a different folder, just change the path accordingly.
+- If your dataset is in a different folder, just change the path accordingly.
 
 4. Install the Required Packages
+
 Run this command in a new cell or in your terminal:
 
     pip install pandas numpy scikit-learn matplotlib seaborn shap
 
 
 5. Run the Notebook
-Click on the "Kernel" tab, then select "Restart & Run All" to execute all cells.
-Sit back and let the notebook train both models and generate the visualizations.
+
+- Click on the "Kernel" tab, then select "Restart & Run All" to execute all cells.
+
+- Sit back and let the notebook train both models and generate the visualizations.
 
 6. View the Results
+
 You’ll get:
 
     📊 Performance Metrics (Accuracy, F1 Score, etc.)
